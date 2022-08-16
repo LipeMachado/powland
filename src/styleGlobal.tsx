@@ -6,7 +6,7 @@ export const GlobalStyle = createGlobalStyle`
         --blue-dark: #0e091b;
         --black-light: #131313;
         --blue-card: #1a0d39;
-        --blue-image-card: #0E091B;
+        --blue-image-card: #0e091b;
         --black: #000000;
         --purple: #9357e6;
         --purple-dark: #7f5bbc;

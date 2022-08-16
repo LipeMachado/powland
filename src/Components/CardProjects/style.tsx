@@ -1,13 +1,17 @@
 import styled from "styled-components";
 
 export const CardBoxDiv = styled.div`
-    width: 350px;
+    width: 390px;
     height: 350px;
     background-color: var(--blue-card); 
     padding: 1rem 1rem;
     border-radius: 5px;
     border: 2px solid var(--purple-border);
     margin-bottom: 2rem;
+
+    @media screen and (max-width: 500px) {
+        width: 220px;
+    }
 `;
 
 export const CardBoxImageDiv = styled.div`
@@ -20,8 +24,8 @@ export const CardBoxImageDiv = styled.div`
     background-color: var(--blue-image-card);
     
     img {
-        width: 100px;
-        height: 100px;
+        width: 90%;
+        height: 90%;
     }
 `;
 
