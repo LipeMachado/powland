@@ -54,7 +54,7 @@ export const NavBtnLink = styled.div`
 
     &:hover {
         transition: all 0.3s ease-in-out;
-        background: var(--purple-dark);
+        background: var(--green);
         color: var(--black);
     }
 `;

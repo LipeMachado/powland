@@ -11,10 +11,7 @@ export function Main() {
         <>
             <MainContainer>
                 <MainBox>
-                    <CardProjects Title="Powfolio" Image={DefaultImage} />
-                    <CardProjects Title="Powfolio" Image={DefaultImage} />
-                    <CardProjects Title="Powfolio" Image={DefaultImage} />
-                    <CardProjects Title="Powfolio" Image={DefaultImage} />
+                    <CardProjects Title="Powland" Image={DefaultImage} />
                 </MainBox>
             </MainContainer>
         </>

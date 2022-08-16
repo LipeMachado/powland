@@ -1,7 +1,12 @@
 import {
     CardBoxDiv,
-    CardBoxImageDiv
+    CardBoxImageDiv,
+    CardBoxTitle,
+    CardBoxButtonDiv,
+    CardBoxButtonDemo,
+    CardBoxButtonGitHub
 } from './style'
+import { GithubLogo } from 'phosphor-react'
 
 interface CardProjectsProps {
     Title: string
@@ -15,12 +20,13 @@ export function CardProjects({ Title, Image }: CardProjectsProps) {
                 <CardBoxImageDiv>
                     <img src={Image} alt="" />
                 </CardBoxImageDiv>
-                <div>
-                    {Title}
-                </div>
-                <div>
-                    <button>Butões</button>
-                </div>
+                <CardBoxTitle>
+                    <h2>{Title}</h2>
+                </CardBoxTitle>
+                <CardBoxButtonDiv>
+                    <CardBoxButtonDemo>Demo</CardBoxButtonDemo>
+                    <CardBoxButtonGitHub><GithubLogo size={16} /></CardBoxButtonGitHub>
+                </CardBoxButtonDiv>
             </CardBoxDiv>
         </>
     );
