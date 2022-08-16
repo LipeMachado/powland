@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CardBoxDiv = styled.div`
-    width: 390px;
+    width: 350px;
     height: 350px;
     background-color: var(--blue-card); 
     padding: 1rem 1rem;
