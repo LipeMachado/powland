@@ -13,7 +13,7 @@ export function NavBar() {
                     <h1>Powland</h1>
                 </NavLogo>
                 <NavMenu>
-                    <a href="https://github.com/LipeMachado"><NavBtnLink>My Github</NavBtnLink></a>
+                    <a href="https://github.com/LipeMachado" target="_blank"><NavBtnLink>My Github</NavBtnLink></a>
                 </NavMenu>
             </Nav>
         </>
