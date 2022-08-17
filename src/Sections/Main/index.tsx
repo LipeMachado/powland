@@ -11,7 +11,13 @@ export function Main() {
         <>
             <MainContainer>
                 <MainBox>
-                    <CardProjects Title="Powland" Image={DefaultImage} />
+                    <CardProjects
+                        Title="Powland"
+                        Description="Powland is a site where there are several challenges made by me."
+                        Image={DefaultImage}
+                        UrlGitHub="https://github.com/LipeMachado/powland/"
+                        UrlDemo="https://powland.vercel.app"
+                    />
                 </MainBox>
             </MainContainer>
         </>

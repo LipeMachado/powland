@@ -14,6 +14,7 @@ export const GlobalStyle = createGlobalStyle`
         --white-font: #fefefe;
         --gray-font: #AEAEAE;
         --green: #04D361;
+        --purple-opacity: #2e0f5fb3;
     }
 
     * {
