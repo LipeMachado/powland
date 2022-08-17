@@ -27,6 +27,10 @@ export const NavMenu = styled.div`
     align-items: center;
     padding: 0 2rem;
 
+    a {
+        text-decoration: none;
+    }
+
     @media screen and (max-width: 768px) {
         display: none;
     }
