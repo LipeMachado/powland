@@ -6,6 +6,7 @@ import {
 
 import DefaultImage from '../../Assets/Images/powlandImage.jpeg'
 import HelloWorld from '../../Assets/Images/challenge-HelloWorld.jpeg'
+import AnimatedButton from '../../Assets/Images/challenge-AnimatedButton.jpeg'
 
 export function Main() {
     return (
@@ -25,6 +26,13 @@ export function Main() {
                         Image={HelloWorld}
                         UrlGitHub="https://github.com/LipeMachado/customHelloWorld-21DaysOfCode"
                         UrlDemo="https://helloworld-21daysofcode.vercel.app/"
+                    />
+                    <CardProjects
+                        Title="Animated Button"
+                        Description="Challenge number 3 of the 21 day rocketseat challenge."
+                        Image={AnimatedButton}
+                        UrlGitHub="https://github.com/LipeMachado/animatedButton-21DaysOfCode"
+                        UrlDemo="https://animatedbutton-21daysofcode.vercel.app/"
                     />
                 </MainBox>
             </MainContainer>
