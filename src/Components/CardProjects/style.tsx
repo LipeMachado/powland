@@ -43,6 +43,7 @@ export const CardBoxImageDiv = styled.div`
 
         p {
             padding: 1rem;
+            user-select: none;
         }
 
         &:hover {
@@ -53,6 +54,10 @@ export const CardBoxImageDiv = styled.div`
 
 export const CardBoxTitle = styled.div`
     margin-bottom: 3.5rem;
+
+    h2 {
+        user-select: none;
+    }
 `;
 
 export const CardBoxButtonDiv = styled.div`
